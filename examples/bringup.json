@@ -1,0 +1,14 @@
+[
+  {"event": "activate"},
+  {"event": "configure", "frame_id": "camera_optical"},
+  {"event": "frame", "sample": 10},
+  {"event": "activate"},
+  {"event": "frame", "sample": 11},
+  {"event": "frame", "sample": 12},
+  {"event": "deactivate"},
+  {"event": "frame", "sample": 13},
+  {"event": "activate"},
+  {"event": "frame", "sample": 14},
+  {"event": "shutdown"},
+  {"event": "frame", "sample": 15}
+]

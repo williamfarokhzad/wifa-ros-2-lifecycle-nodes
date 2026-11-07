@@ -1,0 +1,13 @@
+[
+  {"event": "configure", "frame_id": " "},
+  {"event": "configure", "frame_id": "camera_old", "inject": "recoverable"},
+  {"event": "activate"},
+  {"event": "configure", "frame_id": "camera_new"},
+  {"event": "activate"},
+  {"event": "frame", "sample": 20},
+  {"event": "deactivate"},
+  {"event": "cleanup"},
+  {"event": "configure", "frame_id": "camera_replaced"},
+  {"event": "activate"},
+  {"event": "frame", "sample": 21}
+]

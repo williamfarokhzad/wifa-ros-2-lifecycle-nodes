@@ -1,0 +1,7 @@
+[
+  {"event": "configure", "frame_id": "camera_optical", "inject": "fatal"},
+  {"event": "configure", "frame_id": "camera_replacement"},
+  {"event": "activate"},
+  {"event": "frame", "sample": 30},
+  {"event": "shutdown"}
+]
